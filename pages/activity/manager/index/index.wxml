@@ -1,0 +1,19 @@
+<view>
+    <function-bar 
+      class="{{makeItem!=null?'show':'hide'}}" 
+      title="{{makeItem.title}}" 
+      subtitle="{{makeItem.subtitle}}" 
+      color="color_blue" 
+      bindmytap="changePage" 
+      data-type="{{makeItem.type}}" 
+      imgSrc="{{makeItem.imgSrc}}"/>
+    <block wx:for="{{showArray}}" wx:key="unique" wx:for-item="item">
+      <function-bar 
+      title="{{item.title}}" 
+      subtitle="{{item.subtitle}}" 
+      color="color_blue" 
+      bindmytap="changePage" 
+      data-type="{{item.type}}" 
+      imgSrc="{{item.imgSrc}}"/>
+    </block>
+</view>

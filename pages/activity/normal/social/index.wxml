@@ -1,0 +1,18 @@
+<!--pages/activity/normal/social/index.wxml-->
+<wux-alert theme="positive">共参与了
+  <span class="hours"> {{pastPractice+listData.length}} </span>次社会实践
+  <text hidden='{{pastPractice==0}}'>（含往期{{pastPractice}}次）</text>
+  </wux-alert>
+<block wx:for="{{listData}}" wx:key="{{index}}">
+  <wux-white-space size='large' />
+  <wux-wing-blank size="default">
+    <wux-card title="{{item.activityName}}">
+      <view slot="body">评级：{{item.grades}}</view>
+      <view slot="footer">{{item.createTime}}</view>
+    </wux-card>
+  </wux-wing-blank>
+</block>
+
+<view class='empty_page' hidden='{{!empty}}'>
+  <wux-prompt visible="{{empty}}" title="空空如也" text="没有活动章" />
+</view>

@@ -1,0 +1,150 @@
+.m-home {
+  flex: 1;
+  position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  height: 80rpx;
+  padding: 20rpx;
+  margin: 20rpx 20rpx;
+  border-radius: 5rpx;
+  box-shadow: 5rpx 5rpx 5rpx black;
+}
+.m-home .m-home_img {
+  height: 50rpx;
+  width: 50rpx;
+  margin-left: 15rpx;
+}
+.m-home .m-home_text {
+  margin-left: 30rpx;
+}
+.m-home .m-home_h2 {
+  color: #FFFFFF;
+  font-size: 35rpx;
+}
+.m-home .m-home_h3 {
+  opacity: 0.7;
+  color: #F5F5F5;
+  font-size: 25rpx;
+}
+/* 
+配色基于Ant-Design
+https://ant.design/docs/spec/colors-cn
+挑选第六层作为主色，第七层作为底色
+*/
+.color_magenta{
+  background-color: #eb2f96;
+  box-shadow: 5rpx 5rpx 5rpx #c41d7f;
+  opacity: .8;
+}
+.color_purple{
+  background-color: #722ed1;
+  box-shadow: 5rpx 5rpx 5rpx #531dab;
+  opacity: .8;
+}
+.color_geekblue{
+  background-color: #2f54eb;
+  box-shadow: 5rpx 5rpx 5rpx #1d39c4;
+  opacity: .8;
+}
+.color_blue{
+  background-color: #1890ff;
+  box-shadow: 5rpx 5rpx 5rpx #096dd9;
+  opacity: .8;
+}
+.color_cyan{
+  background-color: #13c2c2;
+  box-shadow: 5rpx 5rpx 5rpx #08979c;
+  opacity: .8;
+}
+.color_green{
+  background-color: #52c41a;
+  box-shadow: 5rpx 5rpx 5rpx #389e0d;
+  opacity: .8;
+}
+.color_lime{
+  background-color: #a0d911;
+  box-shadow: 5rpx 5rpx 5rpx #7cb305;
+  opacity: .8;
+}
+.color_yellow{
+  background-color: #fadb14;
+  box-shadow: 5rpx 5rpx 5rpx #d4b106;
+  opacity: .8;
+}
+.color_gold{
+  background-color: #faad14;
+  box-shadow: 5rpx 5rpx 5rpx #d48806;
+  opacity: .8;
+}
+.color_orange{
+  background-color: #fa8c16;
+  box-shadow: 5rpx 5rpx 5rpx #d46b08;
+  opacity: .8;
+}
+.color_volcano{
+  background-color: #fa541c;
+  box-shadow: 5rpx 5rpx 5rpx #d4380d;
+  opacity: .8;
+}
+.color_red{
+  background-color: #f5222d;
+  box-shadow: 5rpx 5rpx 5rpx #cf1322;
+  opacity: .8;
+}
+.color_gray{
+  background-color: #8c8c8c;
+  box-shadow: 5rpx 5rpx 5rpx #8c8c8c;
+  opacity: .8;
+}
+.color_blue_1{
+  background-color: #e6f7ff;
+  box-shadow: 5rpx 5rpx 5rpx #bae7ff;
+  opacity: .8;
+}
+.color_blue_2{
+  background-color: #bae7ff;
+  box-shadow: 5rpx 5rpx 5rpx #91d5ff;
+  opacity: .8;
+}
+.color_blue_3{
+  background-color: #91d5ff;
+  box-shadow: 5rpx 5rpx 5rpx #69c0ff;
+  opacity: .8;
+}
+.color_blue_4{
+  background-color: #69c0ff;
+  box-shadow: 5rpx 5rpx 5rpx #40a9ff;
+  opacity: .8;
+}
+.color_blue_5{
+  background-color: #40a9ff;
+  box-shadow: 5rpx 5rpx 5rpx #1890ff;
+  opacity: .8;
+}
+.color_blue_6{
+  background-color: #1890ff;
+  box-shadow: 5rpx 5rpx 5rpx #096dd9;
+  opacity: .8;
+}
+.color_blue_7{
+  background-color: #096dd9;
+  box-shadow: 5rpx 5rpx 5rpx #0050b3;
+  opacity: .8;
+}
+.color_blue_8{
+  background-color: #0050b3;
+  box-shadow: 5rpx 5rpx 5rpx #003a8c;
+  opacity: .8;
+}
+.color_blue_9{
+  background-color: #003a8c;
+  box-shadow: 5rpx 5rpx 5rpx #002766;
+  opacity: .8;
+}
+.color_blue_10{
+  background-color: #002766;
+  box-shadow: 5rpx 5rpx 5rpx #002766;
+  opacity: .8;
+}

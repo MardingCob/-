@@ -1,0 +1,100 @@
+{
+  "pages": [
+   
+    
+    "pages/home/index/index",
+    
+    "pages/broclass/index/index",
+    "pages/broclass/create1/index",
+    "pages/broclass/create2/index",
+    "pages/broclass/form/index",
+    "pages/broclass/search/index",
+    "pages/broclass/succeed/index/index",
+    "pages/broclass/reviewing/index/index",
+    "pages/broclass/cancel/index/index",
+    "pages/broclass/reviewing/detail/index",
+    "pages/broclass/learningcheck/index/index",
+    "pages/broclass/learningcheck/detail/index",
+    "pages/broclass/leaguecheck/detail/index",
+    "pages/broclass/leaguecheck/index/index",
+    "pages/broclass/cancel/detail/index",
+    "pages/broclass/succeed/detail/index",
+
+    "pages/setting/cgPwd/index",
+    "pages/setting/index/index",
+    "pages/setting/collect/index",
+    "pages/setting/finManage/orglist/index",
+    "pages/setting/finManage/manager/index",
+    "pages/setting/finManage/newly/index",
+    "pages/setting/finManage/examine/index",
+    "pages/setting/finManage/detail/index",
+    "pages/setting/finManage/putbudget/index",
+    "pages/activity/teacher/index",
+    "pages/activity/normal/school/index",
+    "pages/activity/normal/lecture/index",
+    "pages/activity/normal/work/index",
+    "pages/activity/normal/organization/index",
+    "pages/activity/normal/social/index",
+    "pages/activity/normal/volunteer/index",
+    "pages/activity/normal/party/toParty/index",
+    "pages/activity/normal/party/flag/index",
+    "pages/activity/normal/party/exchange/index",
+    "pages/activity/normal/distribute/index",
+    "pages/activity/recorder/work/index",
+    "pages/activity/recorder/scan/index",
+    "pages/activity/manager/index/index",
+    "pages/activity/manager/make/index",
+    "pages/activity/manager/manage/distribute/index",
+    "pages/activity/manager/manage/overview/index",
+    "pages/activity/manager/manage/detail/index",
+    "pages/setting/certificate/index/index",
+    "pages/setting/certificate/examineList/index",
+    "pages/setting/certificate/CET/index/index",
+    "pages/setting/certificate/Ccertificate/index/index",
+    "pages/setting/certificate/Qcertificate/index/index",
+    "pages/setting/certificate/Scertificate/index/index",
+    "pages/setting/certificate/Qcertificate/create/index",
+    "pages/setting/certificate/Qcertificate/certificateDetail/detail/index",
+    "pages/setting/certificate/Ccertificate/create/index",
+    "pages/setting/certificate/Scertificate/create/index",
+    "pages/setting/certificate/Qcertificate/certificateDetail/index/index",
+    "pages/setting/certificate/Qcertificate/certificateDetail/update/index",
+    "pages/setting/certificate/Scertificate/certificateDetail/detail/index",
+    "pages/setting/certificate/Scertificate/certificateDetail/index/index",
+    "pages/setting/certificate/Scertificate/certificateDetail/update/index",
+    "pages/setting/certificate/Ccertificate/certificateDetail/detail/index",
+    "pages/setting/certificate/Ccertificate/certificateDetail/index/index",
+    "pages/setting/certificate/Ccertificate/certificateDetail/update/index",
+    "pages/setting/certificate/CET/create/index",
+    "pages/setting/certificate/CET/certificateDetail/update/index",
+    "pages/setting/certificate/CET/certificateDetail/index/index",
+    "pages/setting/certificate/CET/certificateDetail/detail/index",
+    "pages/setting/certificate/distribute/index",
+    "pages/setting/borrow/borrowdetail/detail/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#2980b9",
+    "navigationBarTitleText": "信工第二课堂",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor": "#3780b9",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/home/index/index",
+        "text": "个人",
+        "iconPath": "images/features.png",
+        "selectedIconPath": "images/features_active.png"
+      },
+      {
+        "pagePath": "pages/setting/index/index",
+        "text": "设置",
+        "iconPath": "images/setting.png",
+        "selectedIconPath": "images/setting_active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

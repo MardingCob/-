@@ -1,0 +1,10 @@
+/* pages/home/index/index.wxss */
+.header_view_hide{
+  display: block;
+}
+
+.header_view_show{
+	
+  display: block;
+}
+

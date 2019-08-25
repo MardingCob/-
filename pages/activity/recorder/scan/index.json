@@ -1,0 +1,16 @@
+{
+  "navigationBarTitleText": "扫码",
+  "usingComponents": {
+    "wux-wing-blank": "../../../../dist/wing-blank/index",
+    "wux-alert": "../../../../dist/alert/index",
+    "wux-white-space": "../../../../dist/white-space/index",
+    "wux-button": "../../../../dist/button/index",
+    "wux-segmented-control": "../../../../dist/segmented-control/index",
+    "wux-icon": "../../../../dist/icon/index",
+    "wux-input": "../../../../dist/input/index",
+    "wux-input-number": "../../../../dist/input-number/index",
+    "wux-cell-group": "../../../../dist/cell-group/index",
+    "wux-cell": "../../../../dist/cell/index",
+    "wux-select": "../../../../dist/select/index"
+  }
+}
