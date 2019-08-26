@@ -1,9 +1,8 @@
 {
   "pages": [
-   
-    
+    "pages/prelogin/index",
+    "pages/login/index",
     "pages/home/index/index",
-    
     "pages/broclass/index/index",
     "pages/broclass/create1/index",
     "pages/broclass/create2/index",
@@ -19,7 +18,6 @@
     "pages/broclass/leaguecheck/index/index",
     "pages/broclass/cancel/detail/index",
     "pages/broclass/succeed/detail/index",
-
     "pages/setting/cgPwd/index",
     "pages/setting/index/index",
     "pages/setting/collect/index",

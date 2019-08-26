@@ -51,13 +51,13 @@ Page({
     var that = this;
     //登录
     wx.request({
-      url: app.globalData.apiUrl + '/user/openId',
+      url: app.globalData.apiUrl + '/user/token',
       method: 'POST',
       header: { 'Content-Type': 'application/x-www-form-urlencoded' },
       data: {
         username: that.data.username,
         password: that.data.password,
-        code: code
+        // code: code
       },
       success: function (res) {
         switch (res.data.errorCode) {

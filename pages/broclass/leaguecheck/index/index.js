@@ -56,7 +56,7 @@ Page({
       },
 
       header: {
-        'Authorization': app.globalData.token
+        'Authorization': wx.getStorageSync('server_token')
       },
 
       success: function (res) {

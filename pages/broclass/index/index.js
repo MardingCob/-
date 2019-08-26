@@ -26,7 +26,7 @@ Page({
 
       header: {
         'Content-Type': 'application/x-www-form-urlencoded',
-        'Authorization': app.globalData.token
+        'Authorization': wx.getStorageSync('server_token')
       },
 
       data: {
