@@ -17,7 +17,6 @@ App({
     // token: 'c8290656-05cf-4ccb-a2e2-5456c1437abf',
     // apiUrl: 'https://haetae.dashwood.xyz/',
     yesapi: 'http://hn216.api.yesapi.cn',
-
     apiUrl: 'http://120.79.91.97:8666'
     //apiUrl:   'https://hupanyouth.cn'
     //apiUrl: 'http://119.23.188.92:8000'
