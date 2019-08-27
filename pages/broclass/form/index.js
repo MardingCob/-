@@ -175,8 +175,9 @@ Page({
 
                   console.log('用户点击确定');
 
-                  wx.navigateTo({
-                    url: '/pages/broclass/index/index',
+                  wx.navigateBack({
+                    //url: '/pages/broclass/index/index',
+                    delta:3
                   })
 
                 }
