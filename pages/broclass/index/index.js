@@ -128,7 +128,7 @@ Page({
    */
   onLoad: function (options) {
     //角色权限获取
-    let role_info = wx.getStorageSync('role_info');
+    let role_info = app.globalData.roleInfo;
 
     this.setData({
       role_info: role_info

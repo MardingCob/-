@@ -1,6 +1,6 @@
 /* pages/home/index/index.wxss */
 .header_view_hide{
-  display: block;
+  display: none;
 }
 
 .header_view_show{

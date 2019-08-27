@@ -25,7 +25,7 @@ Page({
     locale_id: '',
     locale_code: '',
     locale_area_id: '',
-    document: 'just for test'
+    document: ''
 
   },
 
@@ -74,7 +74,7 @@ Page({
 
           success: function (res) {
             that.data.document = JSON.parse(res.data).data.url;
-            console.log(JSON.parse(res.data).data.url);
+            console.log(that.data.document);
           }
 
         })
