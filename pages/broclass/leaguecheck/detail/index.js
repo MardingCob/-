@@ -34,7 +34,7 @@ Page({
             },
 
             header: {
-              'Authorization': app.globalData.token,
+              'Authorization': wx.getStorageSync('server_token'),
               'Content-Type': 'application/x-www-form-urlencoded'
             },
 
@@ -102,7 +102,7 @@ Page({
             },
 
             header: {
-              'Authorization': app.globalData.token,
+              'Authorization': wx.getStorageSync('server_token'),
               'Content-Type': 'application/x-www-form-urlencoded'
             },
 
