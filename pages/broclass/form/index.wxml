@@ -62,8 +62,11 @@
       <text class="star">*\n</text>
       <text class="detail">如：场地申请表、团委相关组织指导老师审批同意\n的聊天记录等\n支持jpg,png,gif,bmp,psd,tiff等图片格式</text>
 
-      <image id="photo" src='{{avatarUrl}}' bindtap='imginput'></image>
+      
+    </view>
 
+    <view class='input'>
+      <image id="photo" src='{{avatarUrl}}' bindtap='imginput'></image>
     </view>
 
     <view id="submit" bindtap='submit'>
