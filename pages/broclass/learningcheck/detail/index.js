@@ -16,7 +16,7 @@ Page({
     var that = this;
 
     wx.showModal({
-      title: '警告',
+      title: '注意',
       content: '确定要通过此申请吗?',
       success(res) {
         if(res.confirm) {
@@ -83,7 +83,7 @@ Page({
     var that = this;
 
     wx.showModal({
-      title: '警告',
+      title: '注意',
       content: '确定要退回此申请吗?',
       success(res) {
         if(res.confirm) {

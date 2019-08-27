@@ -13,7 +13,7 @@ App({
     major:null,
     classId:null,
     grade:null,
-
+    
     // token: 'c8290656-05cf-4ccb-a2e2-5456c1437abf',
     // apiUrl: 'https://haetae.dashwood.xyz/',
     yesapi: 'http://hn216.api.yesapi.cn',

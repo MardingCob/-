@@ -5,7 +5,7 @@
 
     <function-bar title="场地查询" subtitle="可用场地查询并申请场地" color="color_blue" bindmytap="apply" data-type="" imgSrc=""/>
 
-    <function-bar title="状态查询" subtitle="已提交的申请状态查询" color="color_blue" bindmytap="locale_search" data-type="" imgSrc=""/>
+    <function-bar title="审核通过" subtitle="已提交的申请状态查询" color="color_blue" bindmytap="locale_search" data-type="" imgSrc=""/>
   </view>
 
   <view class="{{show_view_learning?'header_view_show':'header_view_hide'}}">

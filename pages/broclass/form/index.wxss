@@ -19,7 +19,7 @@
   z-index: 1;
 }
 
-#line2{
+.line2{
   width: 130rpx;
   height: 15rpx;
   background: #88f2ef;
@@ -113,7 +113,7 @@ textarea{
 
 #photo{
   height: 300rpx;
-  width: 300rpx;
+  width: 80%;
   
 }
 
@@ -138,4 +138,5 @@ textarea{
   height: 100rpx;
   text-align: center;
   line-height: 100rpx;
+  
 }

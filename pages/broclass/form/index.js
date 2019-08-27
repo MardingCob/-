@@ -25,7 +25,10 @@ Page({
     locale_id: '',
     locale_code: '',
     locale_area_id: '',
-    document: ''
+    document: '',
+    org:'',
+    org_length:'0',
+
 
   },
 
@@ -99,6 +102,21 @@ Page({
     console.log('tel长度:', this.data.tel_length);
   },
 
+  //组织
+  orginput:function(e){
+
+    let org = e.detail.value;
+    let org_length = org.length;
+    this.data.org = org;
+    this.setData({
+      org_length:org_length
+      
+    });
+    //开发测试
+    console.log('用户输入org',this.data.org);
+    console.log('org长度',this.data.org_length);
+  },
+
   usageinput: function (e) {
     let usage = e.detail.value;
     let usage_length = usage.length;
@@ -150,7 +168,7 @@ Page({
           usages: this.data.usage,
           remark: this.data.remark,
           document: this.data.document,
-
+          organizationName:this.data.org,
         },
 
         header: {
