@@ -145,7 +145,7 @@ Page({
 
   submit: function () {
 
-    if (this.data.tel == '' || this.data.usage == '' || this.data.remark == '') {
+    if (this.data.tel == '' || this.data.usage == '' || this.data.remark == ''||this.data.org == '') {
 
       app.warning('请输入完整信息!');
 
